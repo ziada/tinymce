@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<pluggable type="plugin">
+	<name>TinyMCE</name>
+	<license url="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">GNU LESSER GENERAL PUBLIC LICENSE 2.1</license>
+	<author url="http://twofishcreative.com/michael">Michael C. Harris</author>
+	<author url="http://github.com/mikelietz/">Mike Lietz</author>
+	<version>1.0</version>
+	<url>http://twofishcreative.com/TinyMCE/</url>
+	<description><![CDATA[Publish posts using the TinyMCE editor.]]></description>
+	<guid>f729425d-21d2-4760-b20f-c3904c484603</guid>
+	<copyright>2011</copyright>
+</pluggable>
