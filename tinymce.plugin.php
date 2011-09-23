@@ -62,7 +62,7 @@ class TinyMCE extends Plugin {
 	public function action_admin_header( $theme )
 	{
 		if ( $theme->page == 'publish' ) {
-			Stack::add( 'admin_header_javascript', $this->get_url() . '/tinymce/tiny_mce.js', 'tiny_mce' );
+			Stack::add( 'admin_header_javascript', $this->get_url() . '/tiny_mce/tiny_mce.js', 'tiny_mce' );
 			$options = User::identify()->info->tinymce_options;
 			if ( $options == '' ) {
 				$options = 'mode: "textareas", theme: "simple"';
